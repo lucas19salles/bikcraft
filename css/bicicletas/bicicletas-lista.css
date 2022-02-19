@@ -1,4 +1,3 @@
-/* Estilização de lista de Bicicleta */
 .bicicletas-lista {
   padding-top: 60px;
   padding-bottom: 120px;
@@ -55,7 +54,6 @@
   padding-left: 20px;
 }
 
-/* Responsividade */
 @media (max-width: 800px) {
   .bicicletas-lista {
     padding-bottom: 60px;
