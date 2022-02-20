@@ -3,7 +3,7 @@
 }
 
 .bicicletas {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
@@ -22,10 +22,10 @@
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
-  border-radius: 4px 0 0 4px;
   background: var(--cor-12);
   display: inline-block;
   padding: 8px 16px 8px 8px;
+  border-radius: 4px 0 0 4px;
 }
 
 .bicicletas-conteudo {
@@ -34,8 +34,8 @@
   align-content: start;
 }
 
-.bicicletas-conteudo h2,
-.bicicletas-conteudo p {
+.bicicletas h2,
+.bicicletas p {
   grid-column: 1/-1;
 }
 
@@ -49,6 +49,7 @@
   width: 12px;
   height: 8px;
   background-color: var(--cor-p1);
+  margin-bottom: 8px;
 }
 
 .bicicletas p {
@@ -78,7 +79,6 @@
   .bicicletas-bg {
     background: var(--cor-11);
   }
-
   .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -91,10 +91,9 @@
   .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
-
   .bicicletas ul {
     font-size: 1rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
   .bicicletas a {
