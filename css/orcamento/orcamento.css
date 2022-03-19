@@ -155,7 +155,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .orcamento {
     grid-template-columns: 1fr;
   }
@@ -169,7 +169,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 400px) {
   .orcamento-produto {
     grid-template-columns: 1fr;
   }
